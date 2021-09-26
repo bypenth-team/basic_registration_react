@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+body, html, .App, #root, .outer, .imagecont {
+  width: 100%;
+  height: 100vh;
+  align-content: center ;
+  
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h2 {
+  color: black;
+  
+}
+
+p {
+  color: black;
+  font-size: 12px;
+  font-family: monospace;
+}
+
+.header {
+  text-align: left;
+  font-family: cursive;
+  font-size: large;
+  font-weight: 700;
+  color: black;
+  text-decoration: black underline overline;
+}
+
+.imagecont {
+  width: 450px;
+  margin:auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+  float: right;
+}
+
+.innerImage {
+  background-color: #ffffff;
+}
+
+.navbar-light {
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  float: left;
+  width: 50%;
+}
+
+.inner {
+  width: 450px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+
+.outer .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+  
+}
+
+.outer h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-top: 10px;
+  color: #ff9933;
+  margin: 0;
+}
+
+.noacct {
+  text-align: center;
+}
+
+.forgot-password a {
+  color: #ff9933;
+}
+
+/* login button */
+.login-btn {
+  padding: 1px 30px;
+  
+  color: aliceblue;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 20em;
+  font-family:Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: rgb(63, 60, 60);
+  margin-top: 10px;
+ margin-bottom: 20px;
+  transition: background-color 0.3s ease-out;
+  cursor: pointer;
+}
+
+.login-input {
+  height: 1.5em;
+  width: 15em;
+  border-radius: 8px;
+  border: 1px solid  rgb(240, 236, 236);
+  transition: border 0.4s ease-out;
+  padding: 15px;
+  font-family: Oxygen, sans-serif;
+  font-size: 19px;
+  color: #3e3e42;
+  background: rgb(240, 236, 236);
+  align-self: center;
+  
+  
+}
+
+.login-input:hover {
+  border: 2px solid #70a1ff;
+}
+
+.login-input::placeholder {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+  font-size: 11px;
+  
+  color: rgba(15, 15, 15, 0.4);
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-bottom: 9px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.footer {
+  margin-top: 2em;
+   color:rgb(24, 3, 3);
+   font-family: Roboto,Oxygen, sans-serif;
+ }
+
+ .header-span {
+   color:#ff9933;
+ }
+
+ .nav-link {
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 14px;
+   font-weight: 600;
+ }
